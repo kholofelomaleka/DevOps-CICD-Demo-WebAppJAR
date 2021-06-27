@@ -1,6 +1,3 @@
-#localhost ansible_connection=local
+localhost ansible_connection=local
 #added kmaster 172.31.31.158
-kmaster ansible_connection=ssh user=ubuntu
-#added kslave1 for demo
-kslave1 ansible_connection=ssh user=ubuntu
-#ubuntu@172.31.23.199
+ubuntu@172.31.31.158
