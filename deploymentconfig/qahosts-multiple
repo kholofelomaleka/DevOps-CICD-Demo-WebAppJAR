@@ -1,3 +1,4 @@
 localhost ansible_connection=local
 #added kslave1 for demo
-ubuntu@172.31.23.199
+kslave1 ansible_connection=ssh user=ubuntu
+#ubuntu@172.31.23.199
